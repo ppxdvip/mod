@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="MIT"
+issueTrackerURL=""
+
+[[mods]]
+modId="furnituremod"
+version="1.0.0"
+displayName="Furniture Mod"
+updateJSONURL=""
+displayURL=""
+logoFile=""
+credits=""
+authors="Your Name"
+description="A mod that adds furniture to Minecraft"
+
+[[dependencies.furnituremod]]
+modId="forge"
+mandatory=true
+versionRange="[43.3.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.furnituremod]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.19.2]"
+ordering="NONE"
+side="BOTH"
